@@ -1,0 +1,23 @@
+import java.util.*;
+
+class ExceptionDemo8
+{
+    public static void main(String A[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        int Arr[] = {10,20,30,40,50};
+        int iIndex = 0, i Data = 0;
+
+        System.out.println("Enter the index number : ");
+        iIndex = sobj.nextInt();
+
+        iData = Arr[iIndex];  // Exception prone code 
+
+
+System.out.println("Element at that index is : "+iData);
+
+
+      
+    }
+}
